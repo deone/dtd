@@ -9,7 +9,7 @@ body	{
     height: 100px;
 }
 #header div {
-    background-color: #ff0;
+    background-color: #ddd;
 }
 #logo	{
     height: 95px;
@@ -24,21 +24,26 @@ body	{
 }
 #mast div   {
     height: 275px;
+}
+#large-img  {
     background-color: #ff0;
 }
 #content-body	{
     height: 300px;
-}
-#content-body div   {
-    background-color: #ff0;
 }
 #contact-div	{
     width: 275px;
 }
 #sidebar    {
     width: 275px;
+    height: 295px;
+    background-color: #ff0;
 }
 #footer	{
     height: 50px;
-    background-color: #ff0;
+    background-color: #ddd;
+}
+.rounded    {
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
 }
