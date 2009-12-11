@@ -1,5 +1,5 @@
 body	{
-    padding: 20px 0 40px;
+    padding: 20px 0;
 }
 #wrapper    {
     border: solid 1px #ddd;
@@ -8,13 +8,37 @@ body	{
     padding-top: 5px;
     height: 100px;
 }
-#logo	{
+#header div {
     background-color: #ff0;
+}
+#logo	{
     height: 95px;
 }
 #nav	{
-    background-color: #ff0;
     width: 720px;
     margin-top: 65px;
     height: 30px;
+}
+#mast	{
+    height: 280px;
+}
+#mast div   {
+    height: 275px;
+    background-color: #ff0;
+}
+#content-body	{
+    height: 300px;
+}
+#content-body div   {
+    background-color: #ff0;
+}
+#contact-div	{
+    width: 275px;
+}
+#sidebar    {
+    width: 275px;
+}
+#footer	{
+    height: 50px;
+    background-color: #ff0;
 }
