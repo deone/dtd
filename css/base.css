@@ -1,0 +1,20 @@
+body	{
+    padding: 20px 0 40px;
+}
+#wrapper    {
+    border: solid 1px #ddd;
+}
+#header	{
+    padding-top: 5px;
+    height: 100px;
+}
+#logo	{
+    background-color: #ff0;
+    height: 95px;
+}
+#nav	{
+    background-color: #ff0;
+    width: 720px;
+    margin-top: 65px;
+    height: 30px;
+}
