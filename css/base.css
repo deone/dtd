@@ -69,6 +69,7 @@ h2  {
 }
 #content-text	{
     width: 635px;
+    margin-bottom: 15px;
 }
 #content-text p	{
     margin: 15px 0 0 10px;
@@ -77,6 +78,9 @@ h2  {
 #contact-div	{
     background: url("../img/gradient.jpg");
     width: 225px;
+}
+#sidebar    {
+    width: 220px;
 }
 #email-fone {
     margin: 10px 10px;
