@@ -1,19 +1,38 @@
+/* Write these values properly */
 body	{
-    padding: 20px 0;
+    padding-left: 79px;
+    background: url("../img/wrapper_bg.png") center repeat-y;
 }
-#wrapper    {
-    border: solid 1px #2e2e2e;
+hr  {
+    margin: 0 0 5 0;
+}
+h2  {
+    text-transform: uppercase;
+    background-color: #2e2e2e;
+    color: #fff;
+    margin: 0;
+    padding: 0 0 0 10px;
+    line-height: 1.8em;
+    font-size: 120%;
+    height: 30px;
 }
 #header	{
     padding-top: 5px;
     height: 100px;
+    border-bottom: solid 1px #2e2e2e;
 }
 #logo	{
     height: 95px;
-    background: url("../img/dtd_logo.jpg")
+    background: url("../img/dtd_logo.jpg");
+    cursor: pointer;
+}
+#logo a	{
+    width: 230px;
+    float: left;
+    height: 95px;
+    text-indent: -9999em;
 }
 #nav	{
-    width: 720px;
     margin-top: 65px;
     height: 30px;
     background-color: #2e2e2e;
@@ -35,31 +54,56 @@ body	{
     line-height: 2.3em;
     font-weight: bold;
     color: #fff;
-    padding: 7px 15px 8px 20px;
+    padding: 7px 15px 7px 20px;
+    text-decoration: none;
 }
 #nav ul li a:hover  {
-    background-color: #3d3d3d;
+    text-decoration: underline;
 }
 #mast	{
     height: 280px;
+    padding-top: 5px;
 }
 #mast div   {
     height: 275px;
 }
-#large-img  {
-    background-color: #ddd;
+#content-text	{
+    width: 635px;
 }
-#content-body	{
-    height: 300px;
+#content-text p	{
+    margin: 15px 0 0 10px;
+    font-size: 1.1em;
 }
 #contact-div	{
-    width: 275px;
-    background-color: #ddd;
+    background: url("../img/gradient.jpg");
+    width: 225px;
 }
-#sidebar    {
-    width: 275px;
-    height: 295px;
-    background-color: #ddd;
+#email-fone {
+    margin: 10px 10px;
+}
+#email-fone .email  {
+    background: #fff 3px 0px url("../img/email_icon.jpg") no-repeat;
+}
+#email-fone .phone  {
+    background: #fff 3px 12px url("../img/phone_icon.jpg") no-repeat;
+}
+#email-fone .fax    {
+    background: #fff 3px 0px url("../img/fax_icon.jpg") no-repeat;
+}
+#email-fone .email, #email-fone .fax	{
+    height: 35px;
+}
+#email-fone p	{
+    padding-top: 5px;
+    padding-left: 45px;
+    margin: 0 0 10px 0;
+}
+#email-fone span    {
+    font-size: 13pt;
+}
+#email-fone a	{
+    color: #2e2e2e;
+    text-decoration: none;
 }
 #footer	{
     height: 50px;
