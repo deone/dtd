@@ -5,29 +5,64 @@
     <link rel="stylesheet" href="css/text.css"/>
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/960_24_col.css"/>
+    <script type="text/javascript" src="js/fader.js"></script>
+    <script type="text/javascript">
+
+        var fadeimages = new Array();
+
+        fadeimages[0] = ["img/conference_call.jpg", "", ""];
+        fadeimages[1] = ["img/business_services.jpg", "", ""];
+        fadeimages[2] = ["img/security_camera.jpg", "", ""];
+        fadeimages[3] = ["img/airport_security.jpg", "", ""];
+
+        var fadebgcolor="white";
+
+    </script>
 </head>
-<body>
-    <div id="wrapper" class="container_24">
+<body class="container_24">
+    <div id="wrapper" class="grid_22">
 	<div id="header">
-	    <div id="logo" class="grid_6">&nbsp;</div>
-	    <div id="nav" class="grid_18 alpha omega">
+	    <div id="logo" class="grid_6"><a href="index.html">DTD Nigeria</a></div>
+	    <div id="nav" class="grid_16 alpha omega">
 		<ul>
-		    <li><a>Contact Us</a></li>
-		    <li><a>Our Services</a></li>
-		    <li><a>Our Clients</a></li>
-		    <li><a>About Us</a></li>
+		    <li><a href="#">Contact Us</a></li>
+		    <li><a href="#">Our Services</a></li>
+		    <li><a href="#">Our Clients</a></li>
 		</ul>
 	    </div>
 	</div>
 	<div class="clear"></div>
 	<div id="content">
 	    <div id="mast">
-		<div id="large-img" class="grid_17">&nbsp;</div>
-		<div id="contact-div" class="grid_7 alpha">&nbsp;</div>
+		<div id="large-img" class="grid_16">
+		    <script type="text/javascript">
+			new fadeshow(fadeimages, 630, 275, 0, 3000, 1, "R");
+		    </script>
+		</div>
+		<div id="contact-div" class="grid_6 alpha">
+		    <div id="email-fone">
+			<p class="email"><span><a href="mailto:info@dtd-ngr.com">info@dtd-ngr.com</a></span></p>
+			<p class="phone">
+			    <span>+234 803 308 3612</span>
+			    <span>+234 1 270 7643</span>
+			</p>
+			<p class="fax">
+			    <span>+234 1 270 7642</span>
+			</p>
+		    </div>
+		</div>
 	    </div>
 	    <div class="clear"></div>
 	    <div id="content-body">
-		<div id="content-text" class="grid_17">&nbsp;</div>
+		<div id="content-text" class="alpha grid_16">
+		    <h2>About Us</h2>
+		    <p>
+			DTD Services Limited is a Company duly incorporated in Nigeria to provide logistic and support services to foreign investors, new entrants, and existing companies in the Nigerian market. The Company, which has its headquarters in Lagos, is well equipped to cater for all the logistic requirements of our clients in Nigeria, thereby providing them invaluable service that allows them focus on their core activities. This enhances their productivity and enables them cut costs.
+		    </p>
+		    <p>
+			The company has a Management Team that has over a decade of industry experience, coupled with seasoned professionals who provide administrative, financial, technical and logistics support for the effective and efficient performance of our clients operations.  Our services are time definite and customized to meet the individual and specialized needs of our clients.
+		    </p>
+		</div>
 		<div id="sidebar" class="grid_7 alpha rounded">&nbsp;</div>
 	    </div>
 	</div>
