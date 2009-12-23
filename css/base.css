@@ -1,7 +1,6 @@
 /* Write these values properly */
-body	{
-    padding-left: 79px;
-    background: url("../img/wrapper_bg.png") center repeat-y;
+#wrapper	{
+    background: url("../img/wrapper_bg.png") repeat-y;
 }
 hr  {
     margin: 0 0 5 0;
@@ -116,4 +115,8 @@ h2  {
 .rounded    {
     -moz-border-radius: 10px; 
     -webkit-border-radius: 10px;
+}
+#wrap	{
+    width: 870px;
+    margin-left: 20px;
 }
