@@ -5,42 +5,57 @@
     <link rel="stylesheet" href="css/text.css"/>
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/960_24_col.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/fader.js"></script>
     <script type="text/javascript">
 
         var fadeimages = new Array();
 
-        fadeimages[0] = ["img/conference_call.jpg", "", ""];
-        fadeimages[1] = ["img/business_services.jpg", "", ""];
-        fadeimages[2] = ["img/security_camera.jpg", "", ""];
-        fadeimages[3] = ["img/airport_security.jpg", "", ""];
+        /*fadeimages[2] = ["img/security_camera.jpg", "", ""];*/
+        fadeimages[0] = ["img/airport_security.jpg", "", ""];
+        fadeimages[1] = ["img/conference_call.jpg", "", ""];
+        fadeimages[2] = ["img/business_services.jpg", "", ""];
 
         var fadebgcolor="white";
 
+	$(function()	{
+	    $("#services").mouseover(function() {
+		$("#dropdown").show();	
+	    }).mouseout(function()  {
+		$("#dropdown").hide();	
+	    });
+	});
     </script>
 </head>
 <body>
     <div id="wrapper" class="container_24">
 	<div id="wrap">
-	    <div id="header" class="grid_22 alpha">
+	    
+	    <div id="header">
 		<div id="logo" class="grid_6"><a href="index.html">DTD Nigeria</a></div>
-		<div id="nav" class="grid_16 alpha omega">
+		<div id="nav" class="grid_17">
 		    <ul>
 			<li><a href="#">Contact Us</a></li>
-			<li><a href="#">Our Services</a></li>
-			<li><a href="#">Our Clients</a></li>
+			<li id="services"><a href="#">Our Services</a>
+			    <ul id="dropdown">
+				<li><a href="#">Administration</a></li>
+				<li><a href="#">Finance</a></li>
+				<li><a href="#">Technical Operations &amp; Engineering Services</a></li>
+			    </ul>
+			</li>
 		    </ul>
 		</div>
+		
 	    </div>
 	    <div class="clear"></div>
 	    <div id="content" class="grid_22 alpha">
-		<div id="mast">
-		    <div id="large-img" class="grid_16">
+		<div id="mast" class="grid_23">
+		    <div id="large-img" class="grid_17 alpha">
 			<script type="text/javascript">
-			    new fadeshow(fadeimages, 630, 275, 0, 3000, 1, "R");
+			    new fadeshow(fadeimages, 670, 275, 0, 3000, 1, "R");
 			</script>
 		    </div>
-		    <div id="contact-div" class="grid_6 alpha">
+		    <div id="contact-div" class="grid_6 omega">
 			<div id="email-fone">
 			    <p class="email"><span><a href="mailto:info@dtd-ngr.com">info@dtd-ngr.com</a></span></p>
 			    <p class="phone">
@@ -54,8 +69,8 @@
 		    </div>
 		</div>
 		<div class="clear"></div>
-		<div id="content-body">
-		    <div id="content-text" class="alpha grid_16">
+		<div id="content-body" class="grid_23">
+		    <div id="content-text" class="grid_17 alpha">
 			<h2>About Us</h2>
 			<p>
 			    DTD Services Limited is a Company duly incorporated in Nigeria to provide logistic and support services to foreign investors, new entrants, and existing companies in the Nigerian market. The Company, which has its headquarters in Lagos, is well equipped to cater for all the logistic requirements of our clients in Nigeria, thereby providing them invaluable service that allows them focus on their core activities. This enhances their productivity and enables them cut costs.
@@ -64,11 +79,11 @@
 			    The company has a Management Team that has over a decade of industry experience, coupled with seasoned professionals who provide administrative, financial, technical and logistics support for the effective and efficient performance of our clients operations.  Our services are time definite and customized to meet the individual and specialized needs of our clients.
 			</p>
 		    </div>
-		    <div id="sidebar" class="grid_6 alpha"><img src="img/camera.jpg"/></div>
+		    <div id="sidebar" class="grid_6 omega"><img src="img/camera.jpg"/></div>
 		</div>
 	    </div>
 	    <div class="clear"></div>
-	    <div id="footer" class="grid_22 alpha"></div>
+	    <div id="footer"></div>
 	    <div class="clear"></div>
 	</div>
     </div>

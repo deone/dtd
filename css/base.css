@@ -35,6 +35,7 @@ h2  {
     margin-top: 65px;
     height: 30px;
     background-color: #2e2e2e;
+    width: 670px;
 }
 #nav ul	{
     list-style: none;
@@ -66,20 +67,12 @@ h2  {
 #mast div   {
     height: 275px;
 }
-#content-text	{
-    width: 635px;
-    margin-bottom: 15px;
-}
 #content-text p	{
-    margin: 15px 0 0 10px;
-    font-size: 1.1em;
+    margin-top: 15px;
+    font-size: 10pt;
 }
 #contact-div	{
     background: url("../img/gradient.jpg");
-    width: 225px;
-}
-#sidebar    {
-    width: 220px;
 }
 #email-fone {
     margin: 10px 10px;
@@ -117,6 +110,19 @@ h2  {
     -webkit-border-radius: 10px;
 }
 #wrap	{
-    width: 870px;
+    width: 920px;
     margin-left: 20px;
+    position: relative;
+}
+#nav #dropdown	{
+    position: absolute;
+    top: 30px;
+    left: 439px;
+    z-index: 5;
+    background-color: #ff0;
+    display: none;
+}
+#nav #dropdown li a {
+    font-weight: normal;
+    color: #2e2e2e;
 }
