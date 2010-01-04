@@ -60,7 +60,7 @@ h2  {
 #nav ul li a:hover  {
     text-decoration: underline;
 }
-#nav #services ul   {
+#nav #dropdown   {
     background-color: #fff;
     width: 250px;
     position: absolute;
@@ -69,7 +69,7 @@ h2  {
     z-index: 100;
     display: none;
 }
-#nav #services ul li	{
+#nav #dropdown li   {
     border-bottom: solid 1px #dedede;
 }
 #nav #services ul li a	{
