@@ -45,7 +45,7 @@ h2  {
     margin: 0;
     padding: 0;
 }
-#nav ul li  {
+#nav ul #contactus, #nav ul #services	{
     display: inline;
     float: right;
     cursor: pointer;
@@ -59,6 +59,24 @@ h2  {
 }
 #nav ul li a:hover  {
     text-decoration: underline;
+}
+#nav #services ul   {
+    background-color: #fff;
+    width: 250px;
+    position: absolute;
+    top: 30px;
+    left: 420px;
+    z-index: 100;
+    display: none;
+}
+#nav #services ul li	{
+    border-bottom: solid 1px #dedede;
+}
+#nav #services ul li a	{
+    padding: 0 0 0 5px;
+    font-size: 8pt;
+    font-weight: normal;
+    color: #2e2e2e;
 }
 #mast	{
     height: 280px;
@@ -114,15 +132,6 @@ h2  {
     margin-left: 20px;
     position: relative;
 }
-#nav #dropdown	{
-    position: absolute;
-    top: 30px;
-    left: 439px;
-    z-index: 5;
-    background-color: #ff0;
-    display: none;
-}
 #nav #dropdown li a {
-    font-weight: normal;
-    color: #2e2e2e;
+    
 }
